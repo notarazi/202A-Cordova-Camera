@@ -6,7 +6,7 @@
     <script type="text/javascript" charset="utf-8">
         document.addEventListener("deviceready",onDeviceReady,false);
         function onDeviceReady() {
-            strMessage=navigator.camera;
+            var strMessage=JSON.stringify(navigator.camera);
             console.log(strMessage);
             alert(strMessage);
             document.getElementById('appmessage').innerHTML=strMessage;
