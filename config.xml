@@ -21,5 +21,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <preference name="phonegap-version" value="cli-6.5.0" />
-    <plugin name="cordova-plugin-camera"/>
+    <plugin name="cordova-plugin-camera"  spec="2.4.1"/>
 </widget>
